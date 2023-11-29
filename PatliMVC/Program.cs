@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PatliMVC.AccesoDatos.Data;
+using PatliMVC.AccesoDatos.Repositorio.IRepositorio;
 
 namespace PatliMVC
 {
@@ -19,6 +20,8 @@ namespace PatliMVC
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+            builder.Services.AddScoped<IUnidadTrabajo, UnidadTrabajo>();
 
             var app = builder.Build();
 
