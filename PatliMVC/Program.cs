@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using PatliMVC.Data;
+using PatliMVC.AccesoDatos.Data;
 
 namespace PatliMVC
 {
@@ -18,7 +18,7 @@ namespace PatliMVC
 
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            builder.Services.AddControllersWithViews();
+            builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
             var app = builder.Build();
 
@@ -43,7 +43,7 @@ namespace PatliMVC
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{area=PlantaMedicinal}/{controller=Home}/{action=Index}/{id?}");
             app.MapRazorPages();
 
             app.Run();

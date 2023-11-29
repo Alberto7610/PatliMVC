@@ -4,14 +4,173 @@
     "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC\\PatliMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC\\PatliMVC.csproj": {
+    "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.AccesoDatos\\PatliMVC.AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC\\PatliMVC.csproj",
-        "projectName": "PatliMVC",
-        "projectPath": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC\\PatliMVC.csproj",
+        "projectUniqueName": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.AccesoDatos\\PatliMVC.AccesoDatos.csproj",
+        "projectName": "PatliMVC.AccesoDatos",
+        "projectPath": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.AccesoDatos\\PatliMVC.AccesoDatos.csproj",
         "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC\\obj\\",
+        "outputPath": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.AccesoDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WinUI\\22.1.34\\NuGetPackages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Modelos\\PatliMVC.Modelos.csproj": {
+                "projectPath": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Modelos\\PatliMVC.Modelos.csproj"
+              },
+              "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Utilidades\\PatliMVC.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Utilidades\\PatliMVC.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Modelos\\PatliMVC.Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Modelos\\PatliMVC.Modelos.csproj",
+        "projectName": "PatliMVC.Modelos",
+        "projectPath": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Modelos\\PatliMVC.Modelos.csproj",
+        "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Modelos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WinUI\\22.1.34\\NuGetPackages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Utilidades\\PatliMVC.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Utilidades\\PatliMVC.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Utilidades\\PatliMVC.Utilidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Utilidades\\PatliMVC.Utilidades.csproj",
+        "projectName": "PatliMVC.Utilidades",
+        "projectPath": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Utilidades\\PatliMVC.Utilidades.csproj",
+        "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -47,6 +206,79 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC\\PatliMVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC\\PatliMVC.csproj",
+        "projectName": "PatliMVC",
+        "projectPath": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC\\PatliMVC.csproj",
+        "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WinUI\\22.1.34\\NuGetPackages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.AccesoDatos\\PatliMVC.AccesoDatos.csproj": {
+                "projectPath": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.AccesoDatos\\PatliMVC.AccesoDatos.csproj"
+              },
+              "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Modelos\\PatliMVC.Modelos.csproj": {
+                "projectPath": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Modelos\\PatliMVC.Modelos.csproj"
+              },
+              "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Utilidades\\PatliMVC.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\alber\\source\\repos\\WebApiPatli\\PatliMVC\\PatliMVC.Utilidades\\PatliMVC.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -60,6 +292,10 @@
               "target": "Package",
               "version": "[7.0.14, )"
             },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.14, )"
@@ -67,6 +303,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[7.0.14, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             }
           },
           "imports": [
