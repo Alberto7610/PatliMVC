@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\alber\source\repos\WebApiPatli\PatliMVC\PatliMVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/alber/source/repos/WebApiPatli/PatliMVC/PatliMVC/Areas/Admin/Views/PlantaMedicinal/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGxhbnRhTWVkaWNpbmFsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/alber/source/repos/WebApiPatli/PatliMVC/PatliMVC/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
